@@ -1,8 +1,8 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
-
+const base = process.env.BASE || '/tooblog/'
 export default defineUserConfig({
-  base: "/tooblog/",
+  base: base,
 
   lang: "zh-CN",
   title: "博客演示",
