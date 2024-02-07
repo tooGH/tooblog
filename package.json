@@ -1,0 +1,33 @@
+{
+  "name": "tooblog",
+  "version": "1.0.0",
+  "description": "my blog. create by vuepress theme hope",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "vuepress-vite build src",
+    "clean-dev": "vuepress-vite dev src --clean-cache",
+    "dev": "vuepress-vite dev src",
+    "update-package": "pnpm dlx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.7",
+    "vue": "^3.4.15",
+    "vuepress": "2.0.0-rc.7",
+    "vuepress-theme-hope": "2.0.0-rc.23"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tooGH/tooblog.git"
+  },
+  "keywords": [
+    "vuepress",
+    "blog"
+  ],
+  "author": "tooGH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tooGH/tooblog/issues"
+  },
+  "homepage": "https://github.com/tooGH/tooblog#readme"
+}
